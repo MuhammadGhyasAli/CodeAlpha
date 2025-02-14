@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery  CodeAlpha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="full-Img" id="fullImgBox">
+        <img src="Images/img1.jpeg"id="fullImg">
+        <span id="cancelBtn" onclick="closeFullImg()">X</span>
+    </div>
+   
+    <div class="image-gallery">
+        <img src="Images/img1.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img2.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img3.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img4.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img5.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img6.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img7.jpeg" onclick="openFullImg(this.src)">
+        <img src="Images/img8.jpeg" onclick="openFullImg(this.src)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
