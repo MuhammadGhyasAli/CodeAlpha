@@ -31,6 +31,10 @@ To run the music player locally, follow these steps:
 2. Use the controls to play, pause, and navigate through the playlist.
 3. The display will show the current track information.
 
+## ScreenShot
+
+![image](https://github.com/user-attachments/assets/41b0c20f-6490-4490-b233-524155459758)
+
 ## License
 
 This project is licensed under the MIT License.
