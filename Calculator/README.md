@@ -24,16 +24,16 @@ To run the calculator locally, follow these steps:
 
 3. Open `index.html` in your preferred web browser.
 
-
-#ScreenShot
-
-![Description of the screenshot](![image](https://github.com/user-attachments/assets/4a8edef3-599e-4639-adfd-5062d3be27d6)
-)
 ## Usage
 
 1. Open the `index.html` file in a web browser.
 2. Use the calculator interface to perform calculations by clicking the buttons.
 3. The display will show the current input and results.
+
+## ScreenShot
+
+![image](https://github.com/user-attachments/assets/8f8b2254-137b-42d9-b490-4a5e95010314)
+_the_screenshot)
 
 ## License
 
