@@ -1,0 +1,58 @@
+
+
+section {
+    margin: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.heading{
+    padding: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn a:hover {
+    background-color: white;
+    color: rgb(89, 71, 81);
+}
+.projects{
+    padding-left: 15vw;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-heading{
+    padding: 1vh 3vw;
+}
+.project-card{
+    background-color: white;
+    margin: 2vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+  
+    border-radius: 25px;
+    padding-bottom: 1.5vh;
+}
+.desc{
+    padding:3px  20px;
+    text-align: justify;
+}
+
+
+
+.image {
+    border-radius: 5px;
+    width: 28vw;
+    height: 25vh;
+}

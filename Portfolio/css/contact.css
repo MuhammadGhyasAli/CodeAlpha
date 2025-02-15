@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: rgb(186, 179, 169);
+}
+.container{
+    font-size: 20px;
+}
+.contact-form {
+    padding: 0 5vw;
+    padding-top: 2vh;
+    font-family: "Playfair Display", serif sans-serif;
+}
+.contactPage{
+    display: flex;
+    
+}
+.contactNo {
+    display: flex;
+    width: 50vw;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailObj {
+    display: flex;
+    padding-top: 1vh;
+    font-size: 20px;
+    align-items: center;
+}
+
+.line {
+    width: 30vw;
+    height: 1vh;
+    border-bottom: 4px solid #604e5f;
+}
+
+.icoImages {
+    padding-right: 0.5vw;
+}
+
+.socialLinks {
+    margin-top: 2vh;
+}
+
+.main-content {
+    display: flex;
+    width: 50vw;
+    height: auto;
+    background-color: rgb(216, 212, 211);
+}
+
+.contact-form h1 {
+    font-size: 1.8em;
+    font-family: "Poppins", serif sans-serif;
+}
+
+.main-content .form-control {
+    width: 33vw;
+    height: 4vh;
+    
+    font-size: 1em;
+    padding: 1.5vh 1.2vw;
+    border-radius: 21%;
+    font-family: "Poppins", serif;
+}
+.formEntities{
+    padding: 1vh 1vw;
+    font-size: 1.2em;
+}
+.form-control:padding{
+    font-size: 1.02em;
+}
+
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0vh 0vw;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#clientEnquiry {
+    height: 25vh;
+    border-radius: 6%;
+}
+
+.form-check {
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.btn-sm {
+
+    font-size: 0.8rem;
+    margin: 10px 19px;
+
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(270deg, rgb(89, 71, 81) #877086);
+    column-gap: 2px;
+
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none;
+    /* Hidden by default */
+}
+
+form div {
+    padding: 1.5vh 0vw;
+}
+
+/* Contact form */
+
+@media  (max-width: 1150px) {
+    .contactPage {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .contact-form {
+        padding: 0 12vw;
+        padding-top: 5vh;
+        font-family: "Playfair Display", serif sans-serif;
+    }
+    .details{
+        padding: 2vh 2vw;
+    }
+}
+@media (max-width: 850px) {
+    .contactPage{
+        flex-direction: column-reverse;
+        width: fit-content;
+    }
+    .contactNo{
+        width: 100vw;
+    }
+    .contactBody{
+        width: 100vw;
+    }
+    .form-group{
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+    }
+    .contactBody .form-control{
+        width: 70vw;
+    }
+   
+}
