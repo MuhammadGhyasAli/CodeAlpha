@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script defer src="js/script.js"></script>
+    <title>Music Player | Syed Ghyas</title>
+  </head>
+  <body>
+    <div class="background">
+      <img src="assets/cover1.jpg" id="bg_img" />
+    </div>
+<div class="container">
+      <!--===============Player Image================= -->
+      <div class="player_img">
+        <img src="assets/cover1.jpeg" id="cover" class="active" />
+      </div>
+      <!--============Player Content -->
+      <h2 id="music_title">A beautiful music</h2>
+      <h3 id="musric_artist">From Pixabay</h3>
+      <!--==============Player Progress & Timmer -->
+      <div class="player_progress" id="player_progress">
+        <div class="progress" id="progress">
+          <div class="music_duration">
+            <span id="current_time">0:00</span>
+            <span id="duration">1:32</span>
+          </div>
+        </div>
+      </div>
+      <!--==============Player Controllers -->
+      <div class="player_controls">
+        <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+        <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+        <i class="fa-solid fa-forward" title="Next" id="next"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

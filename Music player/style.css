@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "poppins", sans-serif;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.background img {
+  position: absolute;
+  min-width: 50%;
+  min-height: 50%;
+  margin: auto;
+  filter: blur(15px);
+  -webkit-filter: blur(50px);
+  transform: scale(1.1);
+}
+.container {
+  background-color: #fff;
+  width: 400px;
+  height: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+.player_img {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
+}
+.player_img img {
+  object-fit: cover;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+.player_img img.active {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1rem;
+  text-align: center;
+  color: #c6bfbf;
+}
+.player_progress {
+  background-color: #c6bfbf;
+  border-radius: 5px;
+  height: 6px;
+  width: 90%;
+  margin: 40px 20px 35px;
+  position: relative;
+  cursor: pointer;
+}
+.progress {
+  background-color: #212121;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: all 0.2s linear;
+}
+.music_duration {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: -25px;
+}
+.player_controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-solid {
+  font-size: 30px;
+  color: #666;
+  cursor: pointer;
+  margin-right: 30px;
+  user-select: none;
+  transition: all 0.3s ease-in;
+}
+.fa-solid:hover {
+  filter: brightness(40%);
+}
+.play-button {
+  font-size: 44px;
+}
