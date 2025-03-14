@@ -1,68 +1,179 @@
-@media  (max-width: 1550px) {
-   
-    .info{
+@media (max-width: 1550px) {
+
+    .info {
         padding-left: 2vw;
     }
-    .hello{
+
+    .hello {
         font-size: 35px;
     }
-    .name{
+
+    .name {
         font-size: 40px;
     }
-    .about{
+
+    .about {
         font-size: 35px;
     }
 }
-@media  (max-width: 1250px) {
-    
-    .info{
+
+@media (max-width: 1250px) {
+
+    .info {
         padding-left: 2vw;
     }
-    .hello{
+
+    .hello {
         font-size: 30px;
     }
-    .name{
+
+    .name {
         font-size: 35px;
     }
-    .about{
+
+    .about {
         font-size: 30px;
     }
-    .devPic img{
+
+    .devPic img {
         height: 45vh;
     }
 }
-@media  (max-width: 900px) {
-    .about{
+
+@media  (max-width: 1150px) {
+    .contactPage {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+    .contact-form {
+        padding: 0 12vw;
+        padding-top: 5vh;
+        font-family: "Playfair Display", serif sans-serif;
+    }
+    .details{
+        padding: 2vh 2vw;
+    }
+}
+@media (max-width: 900px) {
+    .about {
         padding-top: 2vh;
         width: 50vw;
     }
-    
+
+    .projects .heading {
+        text-align: center;
+        margin-top: 4vh;
+    }
+
+    .cards {
+
+        flex-direction: column;
+        padding-left: 7vw;
+        width: 85vw;
+    }
+
+    .project-card {
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 333.469;
+        width: 78vw;
+    }
+
+    .image {
+        border-radius: 5px;
+        width: 60vw;
+        height: 50vh;
+    }
+    .desc {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .contactPage{
+        flex-direction: column-reverse;
+        width: fit-content;
+    }
+    .contactNo{
+        width: 100vw;
+    }
+    .contactBody{
+        width: 100vw;
+    }
+    .form-group{
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+    }
+    .contactBody .form-control{
+        width: 70vw;
+    }
    
 }
-@media  (max-width: 750px) {
-   
-    .info{
+@media (max-width: 750px) {
+
+    .info {
         padding-left: 2vw;
     }
-    .hello{
+
+    .hello {
         font-size: 20px;
     }
-    .name{
+
+    .name {
         font-size: 25px;
     }
-    .about{
+
+    .about {
         font-size: 20px;
         width: 330px;
     }
-    .moreAbout{
+
+    .moreAbout {
         text-align: justify;
     }
-    .devInfo{
+
+    .devInfo {
         width: 69vw;
         height: 39vh;
     }
-    .devPic img{
+
+    .devPic img {
         display: none;
-      }
-    
+    }
+
+    .image {
+        border-radius: 5px;
+        width: 60vw;
+        height: 40vh;
+    }  
+}
+
+@media (max-width: 550px) {
+    .image {
+        border-radius: 5px;
+        width: 60vw;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .image {
+        border-radius: 5px;
+        width: 60vw;
+        height: 22vh;
+    }
+}
+
+@media (max-width: 380px) {
+    .image {
+        border-radius: 5px;
+        width: 60vw;
+        height: 20vh;
+    }
 }
