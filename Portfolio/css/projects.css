@@ -1,58 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <title>Ghyas Ali -- Frot-end-Developer Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <aside class="sideBar sideBarGo">
+            <nav class="navbar">
+                <ul>
+                    <li class="list-item"><a href="../index.html">Home</a></li>
+                    <li class="list-item"><a href="../webpages/about.html">About Me</a></li>
+                    <li class="list-item"><a href="../webpages/projects.html">Projects</a></li>
+                    <li class="list-item"><a href="/">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="contactPage">
+            <div class="contactNo">
+                <div class="details">
+
+                    <div class="location detailObj">
+                        <img src="../images/location.png" alt="" class="images icoImages"><a class="webLink"
+                            href="https://www.google.com/maps/place/Islamabad,+Territoire+f%C3%A9d%C3%A9ral+d'Islamabad,+Pakistan/@33.6160065,72.9209534,45271m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38dfbfd07891722f:0x6059515c3bdb02b6!8m2!3d33.6995086!4d73.0362897!16zL20vMGRoZDU?entry=ttu&g_ep=EgoyMDI1MDIwNS4xIKXMDSoASAFQAw%3D%3D">
+                            Islamabad, Pakistan</a>
+                    </div>
+                    <div class="devMail detailObj">
+
+                        <img src="../images/mail.png" alt="" class="images icoImages"><a class="webLink"
+                            href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttNfvnKPqQnxhVcBzFCjXmxTSgHKhMZrXvmbqbRPNvWRdWZjNPRrrBRhDgtGFKxbbChVv">sgnaqvi05@gmail.com</a>
+                    </div>
+                    <div class="devContact detailObj">
+
+                        <img src="../images/number.png" alt="" class="images icoImages"><a class="webLink"
+                            href="https://api.whatsapp.com/send?phone=923185342271&text=hi">03185342271</a>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="socialLinks">
+                    <a href="https://www.facebook.com/profile.php?id=100081966085238" class="webLink"><img
+                            src="../images/facebook.png" alt="" class="images icoImages"></a>
+                    <a href="https://www.instagram.com/ghyas_syed/" class="webLink"><img src="../images/instagram.png"
+                            alt="" class="images icoImages"></a>
+                    <a href="https://www.linkedin.com/in/syed-muhammad-ghyas-ali-650217323/" class="webLink"><img
+                            src="../images/linkedIn.png" alt="" class="images icoImages"></a>
+                    <a href="https://github.com/MuhammadGhyasAli" class="webLink"><img src="../images/github.png" alt=""
+                            class="images icoImages"></a>
+
+                </div>
+            </div>
+            <div class="main-content contactBody">
+                <div class="hamBurger">
+                    <img src="../images/menu.png" alt="Hamburger" class="images hamImg">
+                    <img src="../images/close.png" alt="Hamburger" class="images cross">
+                </div>
+                <div class="contact-form" id="contactForm">
+                    <h1>Contact me for work /general Enquiry</h1>
+                    <form action="mailto:sgnaqvi05@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name" class="formEntities
+                            ">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" aria-describedby="clientName"
+                                placeholder="Enter name">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="formEntities
+                            ">Email address</label>
+                            <input type="text" name="mail" class="form-control" id="email" aria-describedby="email"
+                                placeholder="Enter email">
+                            <div id="emailHelp" class="form-text">
+                                We'll never share your name with anyone else.
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Enquiry" class="formEntities
+                            ">Enquiry</label>
+                            <textarea name="text" type="comment" class="form-control" id="clientEnquiry"
+                                aria-describedby="clientEnquiry" placeholder="Enter Enquiry"></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
 
 
-section {
-    margin: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-.heading{
-    padding: 30px;
-}
+                        <button class="btn btn-sm submit-button" type="submit" value="send">Submit
+                            <!-- <img src="../images/submit.png" alt="" class="images"> -->
+                            >
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="../js/contact.js"></script>
 
-.btn a {
-    text-decoration: none;
-    color: white;
-}
-
-.btn a:hover {
-    background-color: white;
-    color: rgb(89, 71, 81);
-}
-.projects{
-    padding-left: 15vw;
-}
-.cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-.card-heading{
-    padding: 1vh 3vw;
-}
-.project-card{
-    background-color: white;
-    margin: 2vh 2vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70vw;
-  
-    border-radius: 25px;
-    padding-bottom: 1.5vh;
-}
-.desc{
-    padding:3px  20px;
-    text-align: justify;
-}
-
-
-
-.image {
-    border-radius: 5px;
-    width: 28vw;
-    height: 25vh;
-}
+</body>
+</html>
